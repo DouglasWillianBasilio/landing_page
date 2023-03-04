@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(25, 46, 58);
+}
+
+.container-cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* CENTRALIZANDO O CABEÇALHO*/
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.logo {
+    display: flex; /* para fixar logo e nome um ao lado do outro*/
+    align-items: center; /* CENTRALIZANDO A LOGO*/
+}
+
+.logo img{
+    width: 40px; /* alterando a largura da logo em 40px*/
+    height: auto; /* altura se adaptando a largura */
+}
+
+.logo h1{
+    color: white;
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin-left: 0.8rem; /* para afastar o texto " DANVA " da logo */
+}
+
+ul {
+    display: flex;
+    list-style: none; /* remover o style da lista */
+    gap: 5rem; /* afastando o menu */
+}
+
+ul li a {
+    text-decoration: none; /* removendo a decoração dos links */
+    color: white;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: #5bacdf;
+}
+
+.btn {
+    background-color: #5bacdf;
+    padding: 0.9rem 1.3rem;
+    border-radius: 0.5rem;
+}
+
+.btn:hover{
+    background-color: #034063;
+}
+
+.meio {
+    display: flex;
+    max-width: 100%; /* para facilitar a compreção no responsivo */
+    margin-top: 5rem; /* para afastar o texto do topo */
+    justify-content: space-around; /* para dar um espaçamento entre a div direita e esquerda */
+    align-items: center;
+    flex-wrap: wrap; /* para quando ela contrair ela quebrar */
+}
+
+.direita img {
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+}
+
+.esquerda {
+    max-width: 100%;
+}
+
+.title h1 {
+    font-size: 50px;
+    color: #ccc;
+}
+
+.esquerda p {
+    color: #ccc;
+    line-height: 2.5rem;
+}
+
+button {
+    color: white;
+    background-color: #5bacdf;
+    padding: 0.9rem 1.3rem;
+    border-radius: 0.5rem;
+
+}
