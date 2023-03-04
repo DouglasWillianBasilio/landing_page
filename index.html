@@ -25,11 +25,11 @@
         </header> <!-- container cabeçalho -->
 
         <aside>
-            <div class="icon-menu">
+            <div class="icon-menu" onclick="abrirmenu()">
                 <span><ion-icon name="menu-outline"></ion-icon></span>
             </div> <!-- icon menu-->
 
-            <div class="barra-menu">
+            <div id="barra-menu">
                 <ul class="links">
                     <li> <a href="#">Futuro</a></li>
                     <li> <a href="#">Preço</a></li>
@@ -37,7 +37,9 @@
                     <li> <a href="#" class="btn">Sign Up</a></li>
                 </ul>
                 <div class="c-icon">
-
+                    <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-youtube"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-github"></ion-icon></span>
                 </div> <!-- container icones -->
             </div> <!-- barra menu -->
         </aside>
@@ -59,6 +61,10 @@
             </div><!-- direita -->
         </div><!-- MEIO -->
     </main>
+
+    <footer>
+        Site criado por <a href="https://github.com/DouglasWillianBasilio">Douglas Willian Basilio</a>
+    </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="app.js">
