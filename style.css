@@ -59,6 +59,7 @@ ul li a:hover {
 }
 
 .btn:hover{
+    color: white;
     background-color: #034063;
 }
 
@@ -86,7 +87,7 @@ ul li a:hover {
     color: #ccc;
 }
 
-.esquerda p {
+ p {
     color: #ccc;
     line-height: 2.5rem;
 }
@@ -96,5 +97,12 @@ button {
     background-color: #5bacdf;
     padding: 0.9rem 1.3rem;
     border-radius: 0.5rem;
+    border: none;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
 
+button:hover {
+    color: white;
+    background-color: #034063;
 }
